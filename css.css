@@ -1,0 +1,40 @@
+h1 {
+  font: "Helvetica";
+}
+
+body {
+  text-align: center;
+  background: #123;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font: "Helvetica";
+  font-family: lucida sans;
+  margin: 0 auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+
+}
+
+img {
+
+}
+
+p {
+  font-size: 30px;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"] {
+  background: yellow;
+  color: navy;
+}
