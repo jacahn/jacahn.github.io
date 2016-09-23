@@ -9,23 +9,25 @@ body {
   color: white;
   font-family: Helvetica; sans-serif;
   margin: 0 auto;
+
 }
 
 ul {
+  text-decoration: none;
   list-style-type: none;
-
+  padding: 0;
 }
 
 li {
-  text-decoration: none;
+  text-decoration: inherit;
   display:inline;
   text-align:center;
   padding:inherit;
 }
 
 img {
-  width:auto;
-  height:auto;
+  width:200px;
+  height:200px;
 border-radius: 25%;
 }
 
@@ -38,6 +40,6 @@ input {
   font-size: 18px;
 }
 input[type="submit"] {
-  background: yellow;
+  background: rgba(255, 254, 165, 0.5);;
   color: navy;
 }
