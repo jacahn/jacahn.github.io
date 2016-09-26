@@ -17,9 +17,53 @@ h1 {
 
 }
 
+h1 sub {
+  color: #aaa;
+  vertical-align:baseline;
+}
+
+h1 sub:before {
+  content:"(";
+}
+
+h1 sub:after {
+  content:")";
+}
+h2 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+a {
+  color: #58b;
+}
+
+a:hover{
+  color: #369;
+}
+
+section {
+  border-top: 2px dashed #eee;
+  padding: 50px 0;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
 #headshot {
+
   border-radius: 50%;
   height: 200px;
+  border: 20px solid orange ;
+}
+
+.head {
+  transition:transform 1s;
+}
+
+.head:hover{
+  transform:rotate(360deg);
+  border:10px solid red;
 }
 
 #words {
@@ -36,19 +80,24 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 0;
+  padding: 0;
 }
 
 
 
 html, body {
   text-align: center;
-  background: rgb(25,25,112);
+  /*background: rgb(25,25,112);*/
+  /*background: rgb(32,178,170);*/
+
   background-size: cover;
   background-position: center;
   /*background-image: url("image-1.jpg");*/
   /*background-color: navy;*/
   /*background-position: right top;*/
-  color: white;
+  /*color: grey;*/
+  color: grey;
   font-family: "Helvetica Neue", Helvetica; sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -90,4 +139,12 @@ input {
 input[type="submit"] {
   background: rgba(255, 254, 165, 0.5);;
   color: navy;
+}
+.list li {
+  display:inline;
+  font-weight: bold;
+}
+
+.list li:not(:last-child):after {
+  content: ", ";
 }
