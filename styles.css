@@ -11,27 +11,53 @@
 }
 
 h1 {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: bold;
+
+}
+
+#headshot {
+  border-radius: 50%;
+  height: 200px;
 }
 
 #words {
   width: 30%;
   height: auto;
   float: right;
+  padding-right: 100px;
+
 }
 
-body {
+.hero {
+  outline: 1px solid grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+html, body {
   text-align: center;
   background: rgb(25,25,112);
   background-size: cover;
   background-position: center;
   /*background-image: url("image-1.jpg");*/
-  background-color: navy;
+  /*background-color: navy;*/
   /*background-position: right top;*/
   color: white;
-  font-family: Helvetica; sans-serif;
+  font-family: "Helvetica Neue", Helvetica; sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444
   margin: 0 auto;
+  text-shadow: 1px 1px 0px #fff;
 
 }
+
 
 ul {
   text-decoration: none;
