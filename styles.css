@@ -1,11 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:inherit;
+  font-weight:inherit;
+  font-family:inherit;
+  text-decoration:inherit;
+  line-height:inherit;
+  color:inherit;
+}
+
 h1 {
+}
+
+#words {
+  width: 30%;
+  height: auto;
+  float: right;
 }
 
 body {
   text-align: center;
-  background: #123;
+  background: rgb(25,25,112);
   background-size: cover;
   background-position: center;
+  /*background-image: url("image-1.jpg");*/
+  background-color: navy;
+  /*background-position: right top;*/
   color: white;
   font-family: Helvetica; sans-serif;
   margin: 0 auto;
@@ -26,9 +47,10 @@ li {
 }
 
 img {
-  width:200px;
-  height:200px;
-border-radius: 25%;
+  /*width:200px;*/
+  text-align: left;
+  height:400px;
+  border-radius: 0%;
 }
 
 p {
