@@ -2,58 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Jacqui Ahn's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Jin <sub>Jacqui</sub> Ahn</h1>
-  <h2>Web Developer</h2>
-  <nav>
-    <ul>
-      <li><a href="#"></a></li>
-      <li><a href="JacquiAhnResume.pdf">Resume</a></li> |
-      <li><a href="https://github.com/jacahn">Portfolio on GitHub</a></li>
-    </ul>
-  </nav>
+  <ul class="nav">
+    <li><a href="#bio">About Me</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="JacquiAhnResume.pdf">Resume</a></li>
+    <li><a href="https://github.com/jacahn">GitHub</a></li>
+
+  </ul>
+
   <section class="hero">
     <header>
+      <h1>Jin <sub>Jacqui</sub> Ahn</h1>
+      <h2>Web Developer</h2>
       <div class="head"><img id="headshot" src="headshot.jpg" alt="Jacqui's headshot" /></div>
-      <!-- <img id="words"src="image-1.jpg" alt="Full Stack Web Developer"> -->
     </header>
     <p>Hello, I'm Jacqui.</p>
   </section>
 
-  <section>
+  <section id="bio">
     <header>
-      <h1>Cool Stuff I've Made</h1>
+      <h1>About Me</h1>
+    </header>
+    <div class="prose">
+      <p>I'm a full-stack web developer, with a passion for learning new things.</p>
+      <p>I have an MBA and MA in International Relations.</p>
+      <p>I've lived in 5 countries and speak 5 languages. </p>
+      <p>I've been a home inspector, stained glass artist, a federal contractor, and biological weapons program manager for a US State Department-funded nonproliferation program.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <header>
+      <h1>Web Projects I've Made</h1>
     </header>
     <ul>
       <li>
-        <h2><a href="https://jacahn.github.io/Jac-Ahn-Project-1-Flash-Cards/">Index Cards</a></h2>
+        <h2 class="project"><a href="https://jacahn.github.io/Jac-Ahn-Project-1-Flash-Cards/">Index Cards</a></h2>
         <p>A flash card application using JavaScript and a JQuery plug-in</p>
-        <ul class="list">
+        <!-- <ul class="list">
           <li>HTML5, CSS3, JavaScript</li>
-        </ul>
+        </ul> -->
       </li>
 
       <li>
-        <h2><a href="https://github.com/jacahn/Project-2-FriedFinder">Fried Finder</a></h2>
+        <h2 class="project"><a href="https://github.com/jacahn/Project-2-FriedFinder">Fried Finder</a></h2>
         <p>Code for a fried chicken restaurant review site using Ruby on Rails and the Devise gem for user authentication</p>
-        <ul class="list">
+        <!-- <ul class="list">
           <li>Ruby on Rails</li>
-        </ul>
+        </ul> -->
       </li>
 
       <li>
-        <h2><a href="https://project3-26607.firebaseapp.com/">PicStory</a></h2>
+        <h2 class="project"><a href="https://project3-26607.firebaseapp.com/">PicStory</a></h2>
         <p>A team project travel photography application using HTML, CSS, JQuery, Bootstrap, Angular and Firebase</p>
-        <ul class="list">
+        <!-- <ul class="list">
           <li></li>
-        </ul>
+        </ul> -->
       </li>
 
     </ul>
-  </section>
+  <!-- </section>
   <p></p>
   <p>Contact me</p>
   <input type="email" placeholder="Your email">
@@ -62,9 +77,24 @@
     <h1>Test 1</h1>
   </section>
   <section>
-    <h1>Test 2</h1>
+    <h1>Test 2</h1>-->
   </section>
-</body>
+
+  <section id="skills">
+    <header>
+      <h1>Technical Skills</h1>
+    </header>
+    <p>AJAX, Angular.js, Bash, Bootstrap, CLI, CSS3, Devise, Express.js, Firebase, Git, GitHub, Heroku, HTML5, JavaScript, jQuery, MongoDB, Mongoose, Node.js, PostgreSQL, Rails, RSpec, Ruby, Sinatra, Websockets</p>
+  </section>
+
+
+  <section id="contact">
+    <h1>Contact</h1>
+    <address>Jacqui Ahn
+      <a href="mailto:jsahn23@gmail.com">jsahn23@gmail.com</a>
+    </address>
+    <p>Say Hello!</p>
+  </section>
 
 </body>
 </html>
